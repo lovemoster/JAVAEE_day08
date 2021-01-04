@@ -42,7 +42,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../../Development Tookit/Lib/fastjson-1.2.75.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/fastjson-1.2.75.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
