@@ -10,6 +10,7 @@
         <element id="directory" name="lib">
           <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mariadb-java-client-2.7.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../../../../Development Tookit/Lib/fastjson-1.2.75.jar" />
         </element>
       </element>
     </root>
