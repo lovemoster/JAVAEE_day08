@@ -50,9 +50,13 @@
             //判断是否从服务器收到合法的响应
             if (xml.readyState === 4 && xml.status === 200) {
                 let obj = xml.responseText;
-                let data = eval('(' + obj + ')');
-                //执行回调函数
-                callback(data);
+                if (obj === 'null') {
+                    alert('查询的省份不存在');
+                } else {
+                    let data = eval('(' + obj + ')');
+                    //执行回调函数
+                    callback(data);
+                }
             }
         }
         //获取连接
